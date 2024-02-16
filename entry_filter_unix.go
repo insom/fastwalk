@@ -1,6 +1,4 @@
-//go:build (linux || darwin || freebsd || openbsd || netbsd || !windows) && !appengine
-// +build linux darwin freebsd openbsd netbsd !windows
-// +build !appengine
+//go:build (linux || darwin || freebsd || openbsd || netbsd) && !appengine
 
 package fastwalk
 
